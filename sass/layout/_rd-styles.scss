@@ -1,0 +1,43 @@
+/*component logo*/
+.logo {
+	display:block;
+	margin: 10px 10px 0 0 !important;
+	width: 200px;
+	height: 30px;
+	background: url(../img/rd-logo.png) center no-repeat;
+	padding: 0 !important;
+}
+
+nav.navbar {
+  width:100%;
+  font-family: $rd-font2;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+}
+
+nav.navbar .btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+}
+nav.navbar .btn-default {
+  color: #3A87AD;
+  background-color: #FFF;
+  border-color: #CCC;
+}
+nav.navbar .navbar-btn {
+  margin-top: 7px;
+  margin-bottom: 6px;
+}
+.navbar-default {
+  background-color: #F5F5F5;
+  border-color: #DDD;
+}
+.navbar-default .navbar-nav>li>a {
+  line-height: 22px;
+  padding: 14px 15px;
+  font-weight:normal;
+  color:#8D8D8D;
+}

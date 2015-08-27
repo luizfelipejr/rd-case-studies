@@ -3,30 +3,77 @@
 /*-----------------------------------------------*/
 
 .rd-case-feature-call
+  @include box-shadow(0 2px 3px rgba(43, 59, 93, .54))
   @include clearfix
-  background-color: rgba(79, 105, 125, 1)
+  background-color: $feature-call-background
 
-  h1
-    font-size: 32px
+  .rd-case-title
+    @include font-size(44px)
     color: rgba(white, 1)
-    margin-top: 35px
-    margin-bottom: 45px
+    margin-top: 55px
+    margin-bottom: 55px
+    line-height: 1.5em
+    text-align: center
 
-h4
-  font-size: 16px
-  font-style: italic
+.rd-case-description
+  @include font-size(22px)
   text-align: justify
-  margin-top: 25px
 
 .rd-case-resume
+  padding-bottom: 30px
+
   .container
-    padding-top: 10px
-    padding-bottom: 30px
     border-bottom : 1px solid rgba(0, 0, 0, .1)
+    padding-bottom: 20px
 
-
-.rd-case-title
-  font-size: 30px
+.rd-case-subtitle
+  @include font-size(40px)
+  font-weight: 300
   color: $call-action-color
+  margin-bottom: 20px
+
+.rd-case-content-img
+  margin-bottom: 20px
+
+.rd-case-comment
+  @include clearfix
+  @include border-radius(8px)
+  @include box-shadow(0 1px 3px rgba(43, 59, 93, .24))
+  padding: 25px 50px
+  margin-bottom: 40px
+  text-align: center
+
+  .rd-case-comment-content
+    @include font-size(22px)
+    color: $call-action-color
+    font-style: italic
+    margin-bottom: 5px
+
+  .customer-card
+    max-width: 320px
+    margin: 30px auto 0
+    text-align: left
+
+    .customer-photo
+
+      img
+        @include border-radius(50%)
+        float: left
+        margin-right: 10px
+        display: inline-block
+        width: 72px
+        height: 72px
+
+    h6
+      @include font-size(21px)
+      margin: 10px 0 0
+
+    p
+      @include font-size(18px)
+      color: rgba(0, 0, 0, .64)
+      margin-bottom: 0
+
+.rd-case-description,
+.rd-case-subtitle,
+.rd-content-img
   margin-top: 30px
-  margin-bottom: 10px

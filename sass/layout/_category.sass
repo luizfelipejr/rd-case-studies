@@ -6,24 +6,26 @@
   @include clearfix
   width: 100%
   height: 95px
-  margin-top: 60px
-  background: rgba(0, 0, 0, .1)
-  border: 1px solid rgba(0, 0, 0, .1)
+  margin-top: 70px
+  background: rgba(0, 0, 0, .08)
+  border-top: 1px solid rgba(0, 0, 0, .1)
   position: relative
 
 .rd-case-category-tab
   font-family: $rd-font1
-  width: 640px
+  width: 700px
   margin: 0 auto
+  letter-spacing: .8px
+  position: relative
 
   > li
-    min-width: 160px
+    min-width: 170px
     float: left
 
     > a
-      color: rgba(white, .74)
+      color: rgba(white, .84)
       text-transform: uppercase
-      padding: 34px 30px
+      padding: 36px 30px
       letter-spacing: .4px
 
       &:before
@@ -51,3 +53,7 @@
 
         &:before
           transform: scaleX(1)
+
+@media screen and (max-width: 720px)
+  .rd-case-category
+    display: none
