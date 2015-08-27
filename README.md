@@ -2,7 +2,7 @@
 
 Interact with Codeship.
 
-![Build Status](https://www.codeship.io/projects/1d02af10-2e84-0133-57c4-7ef0c1511fb7/status)
+![Build Status](https://www.codeship.io/projects/732c8c70-2e8e-0133-d819-266422625fdb/status)
 
 # Overview
 A simple page for Resultados Digitais - Case Studies
