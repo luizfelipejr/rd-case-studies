@@ -1,6 +1,6 @@
 # Codeship
 
-interact with Codeship.
+Interact with Codeship.
 
 ![Build Status](https://www.codeship.io/projects/1d02af10-2e84-0133-57c4-7ef0c1511fb7/status)
 
