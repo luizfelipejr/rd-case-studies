@@ -1,0 +1,11 @@
+/*-----------------------------------------------*\
+ RD Case Studies -- Mixins and functions
+/*-----------------------------------------------*/
+
+@function calculateRem($size)
+  $remSize: $size / 14px
+  @return $remSize * 1rem
+
+@mixin font-size($size)
+  font-size: $size
+  font-size: calculateRem($size)

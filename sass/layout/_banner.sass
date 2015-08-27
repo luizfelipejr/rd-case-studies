@@ -1,0 +1,35 @@
+/*-----------------------------------------------*\
+ RD Case Studies -- Top banner
+/*-----------------------------------------------*/
+
+.rd-case-banner
+  position: relative
+  height: 500px
+  @include gradient-horizontal(rgba($banner-background, .74), rgba($banner-background, 1), 0%, 80%)
+
+  .rd-case-banner-img
+    position: absolute
+    right: 0
+    top: 0
+    left: 0
+    overflow: hidden
+    opacity: .34
+
+  .container
+    z-index: 9999
+    text-align: center
+    position: relative
+    
+    h1
+      font-size: 36px
+      color: white
+      text-transform: uppercase
+
+    h2
+      font-size: 22px
+      color: white
+      line-height: 1.5em
+      font-weight: 300
+
+.rd-case-banner-message
+  padding-top: 130px
